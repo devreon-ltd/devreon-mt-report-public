@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <OutputType>Exe</OutputType>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    </PropertyGroup>
+    
+    <PropertyGroup Condition="'$(Configuration)'=='Release'">
+        <OutputPath>..\Build\Artifacts\Devreon.Bridge.Ledger.Worker</OutputPath>
+    </PropertyGroup>
+    
+
+    <ItemGroup>
+        <PackageReference Include="Devreon.Mt.Report.Contracts" Version="2.0.15.174" />
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.4" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.4" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="9.0.4" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.4" />
+        <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="9.0.4" />
+        <PackageReference Include="NATS.Client.Core" Version="3.0.0" />
+        <PackageReference Include="NATS.Client.JetStream" Version="3.0.0" />
+        <PackageReference Include="NATS.Client.Serializers.Json" Version="3.0.0" />
+        <PackageReference Include="RestSharp" Version="112.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="appsettings.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+    
+</Project>

@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devreon.Mt.Report.Worker", "Devreon.Mt.Report.Worker\Devreon.Mt.Report.Worker.csproj", "{95CF51BF-650D-E361-2454-7791BA1CE8CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95CF51BF-650D-E361-2454-7791BA1CE8CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95CF51BF-650D-E361-2454-7791BA1CE8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95CF51BF-650D-E361-2454-7791BA1CE8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95CF51BF-650D-E361-2454-7791BA1CE8CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56B251BB-9630-4CAA-958A-387F13104369}
+	EndGlobalSection
+EndGlobal
